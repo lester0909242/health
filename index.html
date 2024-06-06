@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Allied Health Practice</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            text-align: center;
+            background-image: url("pic1/doc.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        nav {
+            background-color: #17b4cf;
+            color: white;
+            padding: 1em 0;
+            margin-bottom: 2em;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 1em;
+        }
+
+        nav ul li {
+            display: inline;
+            text-transform: uppercase;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            display: inline-block;
+            padding: 0.5em 1em;
+            border: 1px solid white;
+            border-radius: 5px;
+        }
+
+        nav ul li a:hover {
+            background-color: white;
+            color: #17b4cf;
+        }
+
+        main {
+            flex: 1;
+            padding: 2em;
+            max-width: 1200px;
+            margin: auto;
+            text-align: left;
+        }
+
+        section {
+            margin-bottom: 2em;
+        }
+
+        h2 {
+            color: #17b4cf;
+            font-size: 4.7em;
+        }
+
+        p {
+            color: #000000;
+            font-size: 1.2em;
+        }
+
+        .service,
+        .specialization {
+            margin-bottom: 1em;
+            padding: 1em;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            background-color: #f9f9f9;
+        }
+
+        #contact p {
+            margin: 0.5em 0;
+        }
+
+        footer {
+            background-color: #17b4cf;
+            color: #000000;
+            text-align: center;
+            padding: 1em 0;
+            border-top: 1px solid #fdffff;
+            margin-top: auto;
+            width: 100%;
+        }
+
+        /* Responsive styles */
+        @media screen and (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+            }
+
+            nav ul li {
+                display: block;
+                margin-bottom: 0.5em;
+            }
+
+            nav ul li a {
+                display: block;
+            }
+        }
+    </style>
+    <script defer>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Your JavaScript code here
+        });
+    </script>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="physical-therapy.html">Physical Therapy</a></li>
+            <li><a href="occupational-therapy.html">Occupational Therapy</a></li>
+            <li><a href="speech-therapy.html">Speech Therapy</a></li>
+            <li><a href="dietary-services.html">Dietary Services</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="home">
+            <h2>Welcome to Allied Health Practice</h2>
+            <p>
+                Explore our website to learn more about our services and specializations.
+                Your journey to well-being starts here.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Allied Health Practice</p>
+    </footer>
+</body>
+
+</html>

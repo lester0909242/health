@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>Contact Us</title>
+    <style>
+        /* Base styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            text-align: center;
+            background-color: #f9f9f9;
+        }
+
+        header {
+            background-color: #17b4cf;
+            color: white;
+            padding: 1em 0;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 1em;
+        }
+
+        nav ul li {
+            display: inline;
+            text-transform: uppercase;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            display: inline-block;
+            padding: 0.5em 1em;
+            border: 1px solid white;
+            border-radius: 5px;
+        }
+
+        nav ul li a:hover {
+            background-color: white;
+            color: #17b4cf;
+        }
+
+        main {
+            padding: 2em;
+        }
+
+        section {
+            margin-bottom: 2em;
+            background-color: #fff;
+            padding: 2em;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        h2 {
+            color: #17b4cf;
+            font-size: 2em;
+        }
+
+        p {
+            font-size: 1.2em;
+        }
+
+        .contact-icons {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .contact-icons a {
+            display: inline-block;
+            margin: 0 10px;
+            color: #333;
+            font-size: 24px;
+        }
+
+        footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: #17b4cf;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        /* Responsive styles */
+        @media screen and (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+            }
+
+            nav ul li {
+                display: block;
+                margin-bottom: 0.5em;
+            }
+
+            nav ul li a {
+                display: block;
+            }
+
+            footer {
+                position: relative;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Allied Health Practice</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="physical-therapy.html">Physical Therapy</a></li>
+                <li><a href="occupational-therapy.html">Occupational Therapy</a></li>
+                <li><a href="speech-therapy.html">Speech Therapy</a></li>
+                <li><a href="dietary-services.html">Dietary Services</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Get in touch with us through the following channels:</p>
+            <div class="contact-icons">
+                <a href="https://www.facebook.com/yourpage"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/yourpage"><i class="fab fa-instagram"></i></a>
+                <a href="chouchou041319@gmail.com"><i class="far fa-envelope"></i></a>
+                <a href="tel:(+63)9082714183"><i class="fas fa-phone"></i></a>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Allied Health Practice</p>
+    </footer>
+</body>
+</html>
